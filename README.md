@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here]([https://github.com/Atom-Atharva/SignUp-Page])
--   Live Site URL: [Add live site URL here]([https://atom-atharva.github.io/SignUp-Page/])
+-   Solution URL: [https://github.com/Atom-Atharva/SignUp-Page]
+-   Live Site URL: [https://atom-atharva.github.io/SignUp-Page/]
 
 ## My process
 
