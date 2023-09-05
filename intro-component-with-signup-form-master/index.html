@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+		<title>Frontend Mentor | Intro component with sign up form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<main class="hero">
+			<div class="left">
+				<h1>Learn to code by watching others</h1>
+
+				<p>
+					See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+					but understanding how developers think is invaluable.
+				</p>
+
+			</div>
+			<div class="right">
+				<div>
+					<div class="title">
+						<span class="highlight" style="color:white;">Try it free 7 days</span> then ₹101/mo. thereafter
+					</div>
+					<form name="signup" class="form" action="/" method="post">
+						<div class="form-info">
+							<input name="fname" type="text" placeholder="First Name">
+							<div class="error"></div>
+						</div>
+						<div class="form-info">
+							<input name="lname" type="text" placeholder="Last Name">
+							<div class="error"></div>
+
+						</div>
+						<div class="form-info">
+							<input name="mail" type="email" placeholder="Email Address">
+							<div class="error"></div>
+						</div>
+						<div class="form-info">
+							<input name="pwd" type="password" placeholder="Password">
+							<div class="error"></div>
+						</div>
+						<div class="form-info">
+							<button type="submit">Claim your free trial</button>
+						</div>
+						<p>By clicking the button, you are agreeing to our <span class="highlight">Terms and
+								Services</span>
+						</p>
+					</form>
+				</div>
+			</div>
+		</main>
+		<script src="./app.js"></script>
+	</body>
+
+</html>
